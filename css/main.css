@@ -1,0 +1,190 @@
+html, body{
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+header{
+	top:0;
+	padding: 8em;
+	background: url('../img/profile.jpg');
+  /* opacity: 0.5; */
+  background-repeat: no-repeat;
+	background-size: 40%;
+  background-attachment: fixed;
+  background-position: top right;
+}
+header.scrolled {
+  opacity: .7;
+  /* transition: opacity 500ms linear; */
+}
+header .cell {
+  margin-top: 20em;
+	margin-bottom: 8em;
+  width: 40%;
+}
+.head .cell {
+  margin-top: 10em;
+	margin-bottom: 18em;
+  width: 50%;
+}
+.head .cell .adjust {
+  padding-left: 8em;
+  width: 80%;
+}
+.head .cell img {
+  width: 100%;
+}
+.swipe {
+  transform: translateY(-20em);
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+}
+.swipe2 {
+  transform: translateY(-10em);
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+}
+.arswipe {
+	position: absolute;
+	/* width: 100%; */
+	transform: translateY(-20em);
+	z-index: 0;
+	right: 0;
+}
+#Projects {
+  margin: 20em 0;
+  padding: 3em;
+  position: relative;
+  z-index: 2;
+}
+#Projects .container{
+  background-color: #669BBC;
+}
+#Projects img{
+  width: 20em;
+}
+.grid {
+  /* display: block; */
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  flex-grow: 1;
+  width: 40%;
+  /* text-align:center; */
+	display:inline-block;
+  cursor:default;
+  margin: 1em;
+
+	padding: 2em;
+}
+.container a{
+  text-decoration: none;
+  color: black;
+}
+#jams {
+  padding: 3em;
+}
+#jams .grid{
+  padding-left: 1em;
+  flex-wrap: wrap;
+}
+#jams .container {
+  width: 50%;
+  margin: 0;
+  margin-top: 5em;
+  padding: 0;
+}
+#jams .containerimg {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+#jams .container a{
+  display: inline-block;
+}
+.container img{
+  display: inline;
+}
+.containerimg {
+  margin: 1em;
+  z-index: 1;
+  align-self: flex-end;
+}
+.containerimg img{
+  max-width: 50%;
+  float: right;
+  padding-right: 4em;
+}
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: .5em;
+  background: #669BBC;
+  border-radius: 5px;
+  width: 4em;
+  text-align: center;
+  margin: 2em;
+}
+.flex{
+  display: flex;
+}
+.item1 {
+  flex-grow: 1;
+  padding: 1em;
+}
+.item2 {
+  flex-grow: 2;
+}
+.right{
+  margin: 3em;
+  width: 3em;
+  text-align: center;
+  display: block;
+  float: right;
+  border-radius: 5px;
+  background-color: #669BBC;
+  padding: .5em;
+}
+.right a{
+  text-decoration: none;
+  color: black;
+}
+#skills{
+  margin: 0;
+  padding: 4em;
+  background-color: #A8C686;
+}
+#team{
+  z-index: 2;
+  position: relative;
+  margin: 8em;
+  margin-top: 0;
+}
+
+#team .cell {
+  width: 50%;
+}
+#team .cell img{
+  width: 60%;
+}
+#specific {
+  z-index: 2;
+  position: relative;
+  margin: 8em;
+  margin-top: 0em;
+}
+
+#specific .cell {
+  margin-top: 2em;
+  width: 50%;
+}
+#specific .cell img{
+  padding-left: 15em;
+  width: 70%;
+}
