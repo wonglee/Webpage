@@ -64,6 +64,8 @@ header .cell {
 }
 #Projects img{
   width: 20em;
+  object-fit: cover;
+  height: 9.5em;
 }
 .grid {
   /* display: block; */
